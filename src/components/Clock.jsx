@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Clock.css";
 class Clock extends React.Component {
 	constructor(props) {
 		super(props);
@@ -47,8 +47,10 @@ class Clock extends React.Component {
 		const { displayTime, timeInSec } = this.state;
 		//Keep the classes name. Try to inject your code and do not remove existing code
 		return (
-			<div className="clock">
-				<span className="clock-text">{timeInSec !== 0 && displayTime}</span>
+			<div className="clock clock-container">
+				<span className="clock-text clock-value">
+					{timeInSec !== 0 && displayTime}
+				</span>
 			</div>
 		);
 	}

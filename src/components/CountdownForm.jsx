@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./FormStyling.css";
 class CountdownForm extends React.Component {
 	onSubmit(e) {
 		//This will give you string for seconds. Do not remove refs
@@ -14,15 +14,16 @@ class CountdownForm extends React.Component {
 				<form
 					ref="form"
 					onSubmit={this.onSubmit.bind(this)}
-					className="countdown-form">
+					className="countdown-form form-body">
 					<input
 						type="text"
 						ref="seconds"
+						className="enter-text"
 						placeholder="Enter time in seconds"
 					/>
 					<input
 						type="submit"
-						className="button success expanded"
+						className="button success expanded timer-button"
 						value="Start Countdown"
 					/>
 				</form>

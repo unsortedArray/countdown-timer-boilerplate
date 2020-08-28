@@ -17,7 +17,7 @@ class Countdown extends React.Component {
 	render() {
 		const { count } = this.state;
 		return (
-			<div>
+			<div style={{ position: "relative" }}>
 				{count !== 0 && (
 					<Clock timeInSeconds={count} resetCount={this.resetCount} />
 				)}
