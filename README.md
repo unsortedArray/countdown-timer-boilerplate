@@ -1,11 +1,7 @@
-## Please follow the following steps
+# Countdown Timer
 
-### First fork this repo 
+## Hosted Link: https://kanishkkalyani.github.io/countdown-timer-boilerplate/
 
-### clone this repo from your remote 
-
-### make changes and commit changes
-
-### push into your remote
-
-### raise a pr againt Newton-school repo
+- Simple Timer App
+- Initialized by adding number of seconds
+- Time displayed in MM:SS format.
